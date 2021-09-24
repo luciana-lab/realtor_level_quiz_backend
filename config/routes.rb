@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :users
   resources :options
   resources :realtor_levels
   resources :questions
