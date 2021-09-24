@@ -18,7 +18,7 @@ ActiveRecord::Schema.define(version: 2021_09_24_141251) do
   create_table "options", force: :cascade do |t|
     t.string "content"
     t.bigint "question_id", null: false
-    t.bigint "realtor_level_id", null: false
+    t.bigint "realtor_level_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["question_id"], name: "index_options_on_question_id"
