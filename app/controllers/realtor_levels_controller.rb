@@ -1,0 +1,2 @@
+class RealtorLevelsController < ApplicationController
+end
