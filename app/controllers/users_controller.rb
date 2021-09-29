@@ -5,8 +5,17 @@ class UsersController < ApplicationController
     end
 
     def create
-        user = User.new(user_params)
-        if user.save
+        user = User.find_or_create_by(email: params[:email])
+        if user
+            render json: user
+        else
+            render json: { error: user.errors.full_messages, message: "Something went wrong." }
+        end
+    end
+
+    def updated
+        user = User.find_by_email(params[:email])
+        if user.update(:result)
             render json: user
         else
             render json: { error: user.errors.full_messages, message: "Something went wrong." }
@@ -15,6 +24,6 @@ class UsersController < ApplicationController
 
     private
     def user_params
-        params.permit(:first_name, :last_name, :email, :has_account)
+        params.permit(:first_name, :last_name, :email, :has_account, :result)
     end
 end
