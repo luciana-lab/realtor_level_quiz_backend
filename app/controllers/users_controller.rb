@@ -13,9 +13,9 @@ class UsersController < ApplicationController
         end
     end
 
-    def updated
-        user = User.find_by_email(params[:email])
-        if user.update(:result)
+    def update
+        user = User.find_by_id(params[:id])
+        if user.update(user_params)
             render json: user
         else
             render json: { error: user.errors.full_messages, message: "Something went wrong." }
