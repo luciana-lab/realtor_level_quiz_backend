@@ -7,5 +7,4 @@ class Option < ApplicationRecord
       self.realtor_level.level
     end
   end
-  
 end
