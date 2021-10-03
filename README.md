@@ -1,5 +1,5 @@
 # Real Estate Agent Level Quiz
-This is the backend of the application that contains database, models, and controllers. Please, also install the [JavaScript frontend](https://github.com/luciana-lab/realtor_level_quiz_frontend) and follow the installation instructor.\
+This is the backend of the application that contains database, models, and controllers. Please, also install the [JavaScript frontend](https://github.com/luciana-lab/realtor_level_quiz_frontend) and follow the installation instructor.
 
 This quiz was developed considering a real-world case scenario of a real estate marketing company that estate marketing products to real estate agents and wants to know better their agents, suggest and promote products to the right target, and increase sales.\
 Usage:
@@ -75,7 +75,7 @@ Start the server:
 ```
 ## Usage
 
-To see the API data go to your local web server.\
+To see the API data go to your local web server.
 
 [Questions API](http://localhost:3000/users)\
 [Realtor Levels](http://localhost:3000/realtor_levels)\
@@ -91,9 +91,9 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the CrossFit Benchmark project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/luciana-lab/realtor_level_quiz_backend/blob/main/CODE_OF_CONDUCT.md).
+Everyone interacting in this project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/luciana-lab/realtor_level_quiz_backend/blob/main/CODE_OF_CONDUCT.md).
 
 ## Extras
-Project Walkthrough Video [here]()\
-Blog Post [here]()\
+Project Walkthrough Video [here](https://youtu.be/YaqhYMvx9I8)\
+Blog Post [here](https://luciana-lab.medium.com/creating-and-updating-user-database-javascript-frontend-rails-backend-178a6656b76d)\
 30 minutes video coding [here](https://youtu.be/vrZv5b7a23U)
