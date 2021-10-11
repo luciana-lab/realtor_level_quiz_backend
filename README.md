@@ -95,5 +95,8 @@ Everyone interacting in this project's codebases, issue trackers, chat rooms and
 
 ## Extras
 Project Walkthrough Video [here](https://youtu.be/YaqhYMvx9I8)\
+Heroku - Questions API [here](https://real-estate-agent-quiz.herokuapp.com/questions)\
+Heroku - Realtor Levels API [here](https://real-estate-agent-quiz.herokuapp.com/realtor_levels)\
+Heroku - Users API [here](https://real-estate-agent-quiz.herokuapp.com/users)\
 Blog Post [here](https://luciana-lab.medium.com/creating-and-updating-user-database-javascript-frontend-rails-backend-178a6656b76d)\
 30 minutes video coding [here](https://youtu.be/vrZv5b7a23U)
