@@ -7,7 +7,8 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins 'https://luciana-lab.github.io/realtor_level_quiz_frontend'
+    # origins '*'
+    origins 'https://luciana-lab.github.io'
 
     resource '*',
       headers: :any,
