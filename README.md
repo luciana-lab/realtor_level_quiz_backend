@@ -1,7 +1,7 @@
 # Real Estate Agent Level Quiz
 This is the backend of the application that contains database, models, and controllers. Please, also install the [JavaScript frontend](https://github.com/luciana-lab/realtor_level_quiz_frontend) and follow the installation instructor.
 
-This quiz was developed considering a real-world case scenario of a real estate marketing company that estate marketing products to real estate agents and wants to know better their agents, suggest and promote products to the right target, and increase sales.\
+This quiz was developed considering a real-world case scenario of a real estate marketing company that sells real estate marketing products to real estate agents and wants to know better their agents, suggest and promote products to the right target, and increase sales.\
 Usage:
 1. The user fills up a form with first name, last name, email, check if it's already a client;
 2. Answer all 6 questions;
